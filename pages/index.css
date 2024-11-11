@@ -175,6 +175,7 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding: 0 80px;
 }
 
 .recipes__video-item {
@@ -184,12 +185,16 @@
   background-color: #0a2850;
   border-radius: 8px;
   margin-bottom: 215px;
+  padding: 10px;
+  width: 480px;
+  height: 273px;
 }
 
 .recipes__iframe {
-  width: 480px;
-  height: 273px;
+  /* width: 480px;
+  height: 273px;*/
   border-radius: 8px;
+  border: none;
 }
 
 .recipes__video-caption {
@@ -204,4 +209,67 @@
   line-height: 30px;
   color: #ffffff;
   text-align: center;
+}
+/*REGLAS CSS PARA RESERVACION-REVISAR*/
+.reservation-container {
+  background-color: #f7f9ff;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.reservation-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  color: #555;
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="number"],
+.reservation-form input[type="datetime-local"],
+.reservation-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reservation-form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.terms input {
+  margin-right: 10px;
+}
+
+.reservation-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-form button:hover {
+  background-color: #357ab8;
 }

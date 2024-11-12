@@ -1,7 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 0;
   padding: 0;
   box-sizing: border-box;
   min-width: 1100px;
@@ -12,33 +12,31 @@
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
+  position: relative;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  position: relative;
-  box-sizing: border-box;
   background-color: #ffffff;
-  background-image: url("\\images\\background_header.svg");
+  background-image: url("../images/background_header.svg");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
-}
+  box-sizing: border-box;
+} /*revisado y todo bien*/
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px; pendiente*/
 }
 
 .nav__logo {
-  position: relative;
   width: 105px;
   height: 39px;
   margin-top: 30px;
   margin-left: 30px;
-}
+} /*revisado*/
 
 .nav__links {
   display: flex;
@@ -46,32 +44,27 @@
   list-style-type: none;
   margin-right: 80px;
   padding-top: 30px;
-  z-index: 3; /*revisar*/
+  z-index: 3; /*pendiente el z-index*/
 }
 
 .nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-}
-
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 30px;
-  position: relative;
-  margin-left: 80px;
-}
+} /*revisado*/
 
 .header__title {
-  margin-bottom: -10px;
+  position: absolute;
+  top: 183px;
+  left: 80px;
   max-width: 709px;
-  margin-top: 183px;
+  /*margin-bottom: -10px;
+  max-width: 709px;
+  margin-top: 183px;*/
 }
 
-.header__title1 {
-  font-family: "Noto Serif";
+.header__span-accent {
+  font-family: "Noto Serif", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
@@ -79,58 +72,59 @@
   color: #2f80ed;
 }
 
-.header__title2 {
-  font-family: "Inter";
-  font-style: normal;
+.header__span {
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
+  color: #000000;
+  display: inline-block;
+  margin-top: 28px; /* revisado*/
 }
 
 .header__description {
+  position: absolute;
+  left: 80px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 28px;
+  top: 351px; /*está bien si es de la posición relativa?*/
   max-width: 683px;
 }
 
 .header__image {
   position: absolute;
-  right: 0;
-  padding-right: 5px;
-  padding-top: 124px;
+  top: 124px;
+  right: 5px;
   width: 646px;
   height: 568px;
   z-index: 2;
 }
 
 .header__footer {
-  width: 100%;
+  position: absolute;
+  bottom: 40px;
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
-  box-sizing: border-box;
-  margin-bottom: 40px;
-  margin-top: auto;
+  align-items: flex-end;
+  width: 100%;
 }
 
 .header__schedule {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #838383;
   margin-left: 80px;
 }
 
 .header__address {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #838383;
+  font-weight: 500;
   margin-right: 80px;
 }
 

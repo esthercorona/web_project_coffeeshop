@@ -208,11 +208,12 @@
   min-height: 100vh;
   box-sizing: border-box;
   background-image: url("../images/background_reservation.svg");
+  padding: 100px 0;
 }
 
 .reservation__title {
   max-width: 385px;
-  margin: 100px auto 80px auto;
+  margin: 0 auto 80px auto;
   text-align: center;
   font-family: Inter;
   font-style: normal;

@@ -198,7 +198,7 @@
   color: #ffffff;
   text-align: center;
 }
-/*REGLAS CSS PARA RESERVACION-REVISAR*/
+
 .reservation {
   background-color: #d9e7ff;
   display: flex;
@@ -299,4 +299,84 @@
   height: 20px;
   border-radius: 2px;
   accent-color: #2f80ed;
+}
+/*footer reglas*/
+.footer {
+  box-sizing: border-box;
+  background-color: #0a2850;
+  color: #ffffff;
+  position: relative;
+  border-radius: 0 0 20px 20px;
+  padding: 60px 80px;
+  overflow: hidden;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__logo {
+  height: 39px;
+  width: 105px;
+  margin-top: 60px;
+  margin-left: 80px;
+  z-index: 2; /* como hago que el texto esté frente al círculo */
+}
+.footer_circle {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  top: -128px;
+  left: -44px;
+  z-index: 1;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+.footer__copyright {
+  margin-top: 108px;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }

@@ -22,7 +22,7 @@
   width: 105px;
   z-index: 2;
 }
-.footer_circle {
+.footer__circle {
   z-index: 1;
   position: absolute;
   width: 340px;

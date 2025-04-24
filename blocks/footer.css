@@ -1,4 +1,3 @@
-/*esta parte de footer_content revisar*/
 .footer_content {
   box-sizing: border-box;
   background-color: #0a2850;
@@ -12,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-right: 80px;
+  margin-bottom: 108px;
 }
 .footer__column {
   z-index: 2;
@@ -22,8 +21,6 @@
   height: 39px;
   width: 105px;
   z-index: 2;
-  margin-top: 60px;
-  margin-left: 80px;
 }
 .footer_circle {
   z-index: 1;
@@ -55,7 +52,6 @@
   margin-bottom: 16px;
 }
 
-/*.footer__column-link {*/
 .footer__social-link {
   color: white;
   text-decoration: none;

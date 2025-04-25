@@ -7,7 +7,7 @@
   min-height: 100vh;
   box-sizing: border-box;
   background-image: url("../images/background_reservation.svg");
-  padding: 100px 0;
+  /*padding: 100px 0;*/
 }
 .reservation__title {
   max-width: 385px;

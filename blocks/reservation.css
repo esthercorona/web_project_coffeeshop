@@ -11,7 +11,8 @@
 }
 .reservation__title {
   max-width: 385px;
-  margin: 100px auto 80px auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
   text-align: center;
   font-family: Inter;
   font-style: normal;

@@ -1,5 +1,4 @@
-/*REVISAR SI FALTA BLOCK O CLASES DE FORM?*/
-/*FALTA IMPORTACIÓN, SE NECESITA NORMALIZE O ALGO MÁS?*/
+@import url("../vendor/normalize.css");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/nav.css");
